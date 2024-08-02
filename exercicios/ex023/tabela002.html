@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td,
@@ -34,10 +35,35 @@
 
         thead,
         tfoot {
-            background-color: gray;
+            background-color: rgb(38, 38, 38);
             color: white;
         }
+
+        thead>tr>th {
+            /* Fixando cabeçalho da tabela no topo da página HTML */
+            position: sticky;
+            top: -1px;
+            background-color: rgb(38, 38, 38);
+        }
+
+        tbody>tr:nth-child(2n) {
+            /* Efeito Zebrado Padrão*/
+            background-color: lightgray;
+        }
     </style>
+    <!-- Pode se utilizar dentro da Pseudo-classe 'nth-child' o valor 'odd'(impar) e 'even'(Par) para dar o efeito zebrado tambem.
+     
+     EX.
+
+     tbody>tr:nth-child(odd) {
+            /* 2n-1 */
+            background-color: white;
+        }
+
+        tbody>tr:nth-child(even) {
+            /* 2n */
+            background-color: lightgray;
+        } -->
 </head>
 
 <body>
@@ -180,6 +206,117 @@
 
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque reprehenderit nesciunt fugit architecto omnis
+        molestiae, ab esse, nemo doloribus quidem, eius eaque ullam mollitia totam ratione dignissimos. Dolorem,
+        suscipit expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nam odit nemo voluptatem
+        odio nisi? Totam eos dolor, blanditiis explicabo animi quaerat sit magni ipsum eius. Commodi quas voluptate
+        fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex a exercitationem nostrum laborum
+        accusamus similique provident optio asperiores corrupti dolores, cupiditate quaerat dolor nihil dolore nam quis!
+        Aut, tempora! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dignissimos, ipsa nobis aut autem
+        mollitia laborum amet ipsam repellat delectus natus officiis nostrum laudantium qui iure. Veniam natus nemo hic.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eum nulla, consequuntur suscipit, veniam officia
+        ex rem dolores doloribus repellendus, nesciunt numquam repudiandae provident animi quae velit quaerat amet fuga.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque reprehenderit nesciunt fugit architecto omnis
+        molestiae, ab esse, nemo doloribus quidem, eius eaque ullam mollitia totam ratione dignissimos. Dolorem,
+        suscipit expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nam odit nemo voluptatem
+        odio nisi? Totam eos dolor, blanditiis explicabo animi quaerat sit magni ipsum eius. Commodi quas voluptate
+        fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex a exercitationem nostrum laborum
+        accusamus similique provident optio asperiores corrupti dolores, cupiditate quaerat dolor nihil dolore nam quis!
+        Aut, tempora! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dignissimos, ipsa nobis aut autem
+        mollitia laborum amet ipsam repellat delectus natus officiis nostrum laudantium qui iure. Veniam natus nemo hic.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eum nulla, consequuntur suscipit, veniam officia
+        ex rem dolores doloribus repellendus, nesciunt numquam repudiandae provident animi quae velit quaerat amet fuga.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque reprehenderit nesciunt fugit architecto omnis
+        molestiae, ab esse, nemo doloribus quidem, eius eaque ullam mollitia totam ratione dignissimos. Dolorem,
+        suscipit expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nam odit nemo voluptatem
+        odio nisi? Totam eos dolor, blanditiis explicabo animi quaerat sit magni ipsum eius. Commodi quas voluptate
+        fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex a exercitationem nostrum laborum
+        accusamus similique provident optio asperiores corrupti dolores, cupiditate quaerat dolor nihil dolore nam quis!
+        Aut, tempora! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dignissimos, ipsa nobis aut autem
+        mollitia laborum amet ipsam repellat delectus natus officiis nostrum laudantium qui iure. Veniam natus nemo hic.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eum nulla, consequuntur suscipit, veniam officia
+        ex rem dolores doloribus repellendus, nesciunt numquam repudiandae provident animi quae velit quaerat amet fuga.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque reprehenderit nesciunt fugit architecto omnis
+        molestiae, ab esse, nemo doloribus quidem, eius eaque ullam mollitia totam ratione dignissimos. Dolorem,
+        suscipit expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nam odit nemo voluptatem
+        odio nisi? Totam eos dolor, blanditiis explicabo animi quaerat sit magni ipsum eius. Commodi quas voluptate
+        fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex a exercitationem nostrum laborum
+        accusamus similique provident optio asperiores corrupti dolores, cupiditate quaerat dolor nihil dolore nam quis!
+        Aut, tempora! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dignissimos, ipsa nobis aut autem
+        mollitia laborum amet ipsam repellat delectus natus officiis nostrum laudantium qui iure. Veniam natus nemo hic.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eum nulla, consequuntur suscipit, veniam officia
+        ex rem dolores doloribus repellendus, nesciunt numquam repudiandae provident animi quae velit quaerat amet fuga.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque reprehenderit nesciunt fugit architecto omnis
+        molestiae, ab esse, nemo doloribus quidem, eius eaque ullam mollitia totam ratione dignissimos. Dolorem,
+        suscipit expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nam odit nemo voluptatem
+        odio nisi? Totam eos dolor, blanditiis explicabo animi quaerat sit magni ipsum eius. Commodi quas voluptate
+        fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex a exercitationem nostrum laborum
+        accusamus similique provident optio asperiores corrupti dolores, cupiditate quaerat dolor nihil dolore nam quis!
+        Aut, tempora! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dignissimos, ipsa nobis aut autem
+        mollitia laborum amet ipsam repellat delectus natus officiis nostrum laudantium qui iure. Veniam natus nemo hic.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eum nulla, consequuntur suscipit, veniam officia
+        ex rem dolores doloribus repellendus, nesciunt numquam repudiandae provident animi quae velit quaerat amet fuga.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque reprehenderit nesciunt fugit architecto omnis
+        molestiae, ab esse, nemo doloribus quidem, eius eaque ullam mollitia totam ratione dignissimos. Dolorem,
+        suscipit expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nam odit nemo voluptatem
+        odio nisi? Totam eos dolor, blanditiis explicabo animi quaerat sit magni ipsum eius. Commodi quas voluptate
+        fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex a exercitationem nostrum laborum
+        accusamus similique provident optio asperiores corrupti dolores, cupiditate quaerat dolor nihil dolore nam quis!
+        Aut, tempora! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dignissimos, ipsa nobis aut autem
+        mollitia laborum amet ipsam repellat delectus natus officiis nostrum laudantium qui iure. Veniam natus nemo hic.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eum nulla, consequuntur suscipit, veniam officia
+        ex rem dolores doloribus repellendus, nesciunt numquam repudiandae provident animi quae velit quaerat amet fuga.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque reprehenderit nesciunt fugit architecto omnis
+        molestiae, ab esse, nemo doloribus quidem, eius eaque ullam mollitia totam ratione dignissimos. Dolorem,
+        suscipit expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nam odit nemo voluptatem
+        odio nisi? Totam eos dolor, blanditiis explicabo animi quaerat sit magni ipsum eius. Commodi quas voluptate
+        fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex a exercitationem nostrum laborum
+        accusamus similique provident optio asperiores corrupti dolores, cupiditate quaerat dolor nihil dolore nam quis!
+        Aut, tempora! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dignissimos, ipsa nobis aut autem
+        mollitia laborum amet ipsam repellat delectus natus officiis nostrum laudantium qui iure. Veniam natus nemo hic.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eum nulla, consequuntur suscipit, veniam officia
+        ex rem dolores doloribus repellendus, nesciunt numquam repudiandae provident animi quae velit quaerat amet fuga.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque reprehenderit nesciunt fugit architecto omnis
+        molestiae, ab esse, nemo doloribus quidem, eius eaque ullam mollitia totam ratione dignissimos. Dolorem,
+        suscipit expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nam odit nemo voluptatem
+        odio nisi? Totam eos dolor, blanditiis explicabo animi quaerat sit magni ipsum eius. Commodi quas voluptate
+        fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex a exercitationem nostrum laborum
+        accusamus similique provident optio asperiores corrupti dolores, cupiditate quaerat dolor nihil dolore nam quis!
+        Aut, tempora! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dignissimos, ipsa nobis aut autem
+        mollitia laborum amet ipsam repellat delectus natus officiis nostrum laudantium qui iure. Veniam natus nemo hic.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eum nulla, consequuntur suscipit, veniam officia
+        ex rem dolores doloribus repellendus, nesciunt numquam repudiandae provident animi quae velit quaerat amet fuga.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque reprehenderit nesciunt fugit architecto omnis
+        molestiae, ab esse, nemo doloribus quidem, eius eaque ullam mollitia totam ratione dignissimos. Dolorem,
+        suscipit expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nam odit nemo voluptatem
+        odio nisi? Totam eos dolor, blanditiis explicabo animi quaerat sit magni ipsum eius. Commodi quas voluptate
+        fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex a exercitationem nostrum laborum
+        accusamus similique provident optio asperiores corrupti dolores, cupiditate quaerat dolor nihil dolore nam quis!
+        Aut, tempora! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dignissimos, ipsa nobis aut autem
+        mollitia laborum amet ipsam repellat delectus natus officiis nostrum laudantium qui iure. Veniam natus nemo hic.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eum nulla, consequuntur suscipit, veniam officia
+        ex rem dolores doloribus repellendus, nesciunt numquam repudiandae provident animi quae velit quaerat amet fuga.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque reprehenderit nesciunt fugit architecto omnis
+        molestiae, ab esse, nemo doloribus quidem, eius eaque ullam mollitia totam ratione dignissimos. Dolorem,
+        suscipit expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nam odit nemo voluptatem
+        odio nisi? Totam eos dolor, blanditiis explicabo animi quaerat sit magni ipsum eius. Commodi quas voluptate
+        fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex a exercitationem nostrum laborum
+        accusamus similique provident optio asperiores corrupti dolores, cupiditate quaerat dolor nihil dolore nam quis!
+        Aut, tempora! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam dignissimos, ipsa nobis aut autem
+        mollitia laborum amet ipsam repellat delectus natus officiis nostrum laudantium qui iure. Veniam natus nemo hic.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eum nulla, consequuntur suscipit, veniam officia
+        ex rem dolores doloribus repellendus, nesciunt numquam repudiandae provident animi quae velit quaerat amet fuga.
+    </p>
+
 
 </body>
 
