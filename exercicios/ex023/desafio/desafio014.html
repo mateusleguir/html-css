@@ -12,7 +12,8 @@
 
         table {
             border-collapse: collapse;
-            width: 900px;
+            width: 600px;
+            height: 400px;
         }
 
         caption {
@@ -31,15 +32,26 @@
 
         thead {
             background-color: gray;
+            color: white;
         }
 
         .destaque {
 
             background-color: gray;
+            color: white;
             text-align: left;
         }
 
         .notas {
+            text-align: center;
+        }
+
+        .media {
+            background-color: gray;
+            color: white;
+        }
+
+        tbody>tr {
             text-align: center;
         }
     </style>
@@ -64,7 +76,7 @@
         <tbody>
 
             <tr>
-                <th rowspan="4" scope="">Exatas</th>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
                 <td>Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -90,7 +102,7 @@
             </tr>
             <tr>
                 <th colspan="4" scope="colgroup" class="destaque">Média de Exatas</th>
-                <th class="destaque">0.0</th>
+                <th class="media">0.0</th>
             </tr>
             <tr>
                 <th rowspan="2" scope="row">Humanas</th>
@@ -107,7 +119,7 @@
             </tr>
             <tr>
                 <th colspan="4" scope="colgroup" class="destaque">Média de Humanas</th>
-                <th class="destaque">0.0</th>
+                <th class="media">0.0</th>
             </tr>
 
         </tbody>
