@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="off">
       <p>
         <label for="iusu">Usuário: </label>
         <input
@@ -16,6 +16,8 @@
           required
           minlength="5"
           maxlength="15"
+          size="10"
+          placeholder="nome do usuário"
         />
       </p>
       <p>
@@ -27,6 +29,8 @@
           required
           minlength="8"
           maxlength="20"
+          size="10"
+          placeholder="senha do usuário"
         />
       </p>
       <p>
