@@ -76,6 +76,7 @@
     </main>
 
     <script>
+      // Para controlar a posição do menu ao mudar de tamanho de tela
       function mudouTamanho() {
         if (window.innerWidth >= 768) {
           itens.style.display = "block";
@@ -83,7 +84,7 @@
           itens.style.display = "none";
         }
       }
-
+      // Para controlar o abrir e fechar do menu hamburguinho
       function clickMenu() {
         if (itens.style.display == "block") {
           itens.style.display = "none";
