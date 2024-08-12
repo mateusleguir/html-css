@@ -41,6 +41,8 @@ img {
   margin: auto;
 }
 
+/* IDs dos dispositivos */
+
 img#phone {
   display: block;
 }
