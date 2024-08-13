@@ -3,9 +3,9 @@
 <h2>Curso de <strong>HTML5 e CSS3</strong> do <a href="https://www.cursoemvideo.com" target="_blank">CursoemVideo</a></h2>
 
 <p>
-<img align="left" src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/128/Other-html-5-icon.png" width="128" height="128">
+<img align="left" src="https://icons.iconarchive.com/icons/simpleicons-team/simple/72/html5-icon.png" width="72" height="72">
 
-<img align="left" src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/css3-icon.png" width="105" height="100">
+<img align="left" src="https://icons.iconarchive.com/icons/simpleicons-team/simple/72/css3-icon.png" width="72" height="72">
 
 </p>
 
