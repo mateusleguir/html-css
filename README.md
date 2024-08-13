@@ -5,7 +5,7 @@
 <p>
 <img align="left" src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/128/Other-html-5-icon.png" width="128" height="128">
 
-<img align="left" src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/css3-icon.png" width="105" height="110">
+<img align="left" src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/css3-icon.png" width="105" height="100">
 
 </p>
 
