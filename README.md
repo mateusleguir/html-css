@@ -4,7 +4,7 @@ Curso de <strong>HTML5 e CSS3</strong> do <a href="https://www.cursoemvideo.com"
 
 <img src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/128/Other-html-5-icon.png" width="128" height="128">
 
-<img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/css3-icon.png" width="128" height="128">
+<img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/css3-icon.png" width="105" height="110">
 
 Estou aprendendo a desenvolver sites e gerenciar meus repositórios!
 
