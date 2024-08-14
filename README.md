@@ -11,7 +11,7 @@
 </p>
 
 <p align="right">
-<h3>Estou aprendendo a desenvolver sites e gerenciar meus repositórios!</h3>
+<h3>Aprendi a desenvolver sites e gerenciar repositórios!</h3>
 
 <a href="https://mateusleguir.github.io/projeto-android" target="_blank">Executar projeto Módulo-01</a><br>
 
