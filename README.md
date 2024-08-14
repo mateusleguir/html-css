@@ -13,12 +13,12 @@
 <p align="right">
 <h3>Aprendi a desenvolver sites e gerenciar repositórios!</h3>
 
-<a href="https://mateusleguir.github.io/projeto-android" target="_blank">Executar projeto Módulo-01</a><br>
+<a href="https://mateusleguir.github.io/projeto-android" target="_blank">Acessar projeto Módulo-01</a><br>
 
-<a href="https://mateusleguir.github.io/projeto-cordel" target="_blank">Executar projeto Módulo-02</a><br>
+<a href="https://mateusleguir.github.io/projeto-cordel" target="_blank">Acessar projeto Módulo-02</a><br>
 
-<a href="https://mateusleguir.github.io/projeto-social" target="_blank">Executar projeto Módulo-03</a><br>
+<a href="https://mateusleguir.github.io/projeto-social" target="_blank">Acessar projeto Módulo-03</a><br>
 
-<a href="https://mateusleguir.github.io/projeto-login" target="_blank">Executar projeto Módulo-04</a>
+<a href="https://mateusleguir.github.io/projeto-login" target="_blank">Acessar projeto Módulo-04</a>
 
 </p>
