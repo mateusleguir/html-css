@@ -6,8 +6,6 @@
 <img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/html5-icon.png" width="128" height="128">
 
 <img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/css3-icon.png" width="128" height="128">
-
-<img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/javascript-icon.png" width="128" height="128">
 </p>
 
 <p align="right">
